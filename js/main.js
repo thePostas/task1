@@ -54,7 +54,6 @@ const app = new Vue({
         if (check() === 2) isReverse = 'true';
     (switchLight => {
        var time = setInterval(() => {
-           console.log(current);
             for (let i = 0; i < 3; i++) {
                 colors[i].classList.remove('active');
             }
